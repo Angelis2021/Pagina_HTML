@@ -1,0 +1,63 @@
+<!DOCTYPE htlm>
+<html lang="pt-br">
+
+<head>
+
+<title>Formulários HTML</title>
+<meta charset="UTF-8" />
+<meta name="description" content="Descrição da página" />
+<meta name="auhor" content="Angelis" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<main role = "main">
+<form action = "#" method= "POST"> <!--Elementos dos formulário-->
+    <label for ="campo1">Nome</label>
+    <input type="text" name = "nome" id ="Campo1"/>
+    <label>Interesses de estudo</label> 
+    <select name="Interesses">
+
+        <option value ="1">Vendas</option>
+        <option value="2"> MArketing</option>
+    </select>
+        <!--Formuláriocom uma opção-->
+
+        <fieldset>
+
+            <legend>Interesses de estudo1</legend>
+            <label for="campo31">Vendas</label>
+            <input type="radio" name="interesse1" value="1" id="campo31" />
+            <label for ="campo32">Marketing</label>
+            <input type="radio" name="interesse1" value="2" id ="32" />
+    
+    
+        </fieldset>
+    
+    <!--Envio do formulário com mais de uma opção com fieldset-->
+
+    <fieldset>
+
+        <legend>Interesses de estudo2</legend>
+        <label for="campo41">Vendas</label>
+        <input type="checkbox" name="interesse2" value="1" id="campo41" />
+        <label for ="campo42">Marketing</label>
+        <input type="checkbox" name="interesse2" value="2" id ="camp42" />
+
+
+    </fieldset>
+
+       
+
+    <!--Envio do formulário-->
+    <input type = "submit" value ="Enviar o formulário"/> 
+
+    <!--Envio do formulário com buttom, precisa dejascrit-->
+
+    <!--Colocar lista desordenada-->
+
+</form>
+    
+
+</main>
+
+<html>
